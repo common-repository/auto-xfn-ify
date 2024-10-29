@@ -1,0 +1,61 @@
+a[rel~="colleague"],
+a[rel~="co-worker"]
+{
+	padding-right: 21px;
+	background: url(../../plugins/auto-xfn-ify/icons/xfn-colleague.png) no-repeat right;
+}
+
+a[rel~="colleague"][rel~="met"],
+a[rel~="co-worker"][rel~="met"]
+{
+	padding-right: 26px;
+	background: url(../../plugins/auto-xfn-ify/icons/xfn-colleague-met.png) no-repeat right;
+}
+
+a[rel~="friend"]
+{
+	padding-right: 21px;
+	background: url(../../plugins/auto-xfn-ify/icons/xfn-friend.png) no-repeat right;
+}
+
+a[rel~="family"],a[rel~="friend"][rel~="met"],a[rel~="child"],a[rel~="parent"],a[rel~="sibling"],a[rel~="spouse"],a[rel~="kin"]
+{
+	padding-right: 26px;
+	background: url(../../plugins/auto-xfn-ify/icons/xfn-friend-met.png) no-repeat right;
+}
+
+a[rel~="sweetheart"]
+{
+	padding-right: 21px;
+	background: url(../../plugins/auto-xfn-ify/icons/xfn-sweetheart.png) no-repeat right;
+}
+
+a[rel~="sweetheart"][rel~="met"]
+{
+	padding-right: 26px;
+	background: url(../../plugins/auto-xfn-ify/icons/xfn-sweetheart-met.png) no-repeat right;
+}
+
+a[rel~="child"]
+{
+	padding-right: 21px;
+	background: url(../../plugins/auto-xfn-ify/icons/xfn-child.png) no-repeat right;
+}
+
+a[rel~="parent"]
+{
+	padding-right: 21px;
+	background: url(../../plugins/auto-xfn-ify/icons/xfn-parent.png) no-repeat right;
+}
+
+a[rel~="spouse"]
+{
+	padding-right: 21px;
+	background: url(../../plugins/auto-xfn-ify/icons/xfn-spouse.png) no-repeat right;
+}
+
+a[rel~="me"]
+{
+	padding-right: 21px;
+	background: url(../../plugins/auto-xfn-ify/icons/xfn-me.png) no-repeat right;
+}
